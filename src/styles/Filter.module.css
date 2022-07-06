@@ -1,0 +1,13 @@
+.container_select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select {
+  padding: 0.6rem 0.8rem;
+  border-radius: 30px;
+  height: 40px;
+  background-color: #dedede;
+  border: none;
+}

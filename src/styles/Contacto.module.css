@@ -1,0 +1,64 @@
+.container_contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 0.5rem;
+}
+
+.container_contact h3 {
+  padding: 0.4rem;
+}
+
+.link_contact {
+  border: none;
+  padding: 0.4rem;
+  position: relative;
+  transition: 0.5s ease;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.link_contact:hover {
+  opacity: 0.9;
+}
+
+.link_contact::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ff6b01;
+  transition: 0.4s ease;
+}
+
+.link_contact:hover::before {
+  width: 100%;
+}
+
+.link_contact::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-color: #ff6b01;
+  transition: 0.4s ease;
+  z-index: -1;
+}
+
+.link_contact:hover::after {
+  height: 100%;
+  transition-delay: 0.4s;
+  color: aliceblue;
+}
+
+.link_contact svg {
+  font-size: 1.4rem;
+  margin-right: 0.5rem;
+}
