@@ -39,10 +39,10 @@ const MiCanal = () => {
       <h1 className={styles.my_channel_title}>Canal de YouTube</h1>
 
       <p className={styles.paragraph}>
-        En mi canal de <span>YouTube</span> podrás encontrar muchos mas
-        contenido y escenas épicas de diferentes videojuegos como las que te
-        muestro a continuación. Dicho canal se creo con la finalidad de capturar
-        momentos y escenas espectaculares que nos brinda el mundo gaming.
+        En mi canal de <span>YouTube</span> podrás encontrar mucho mas contenido
+        y escenas épicas de diferentes videojuegos como las que te muestro a
+        continuación. Dicho canal se creo con la finalidad de capturar momentos
+        y escenas espectaculares que nos brinda el mundo gaming.
       </p>
 
       <div className={styles.container_button}>
