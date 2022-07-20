@@ -56,7 +56,10 @@ const MiCanal = () => {
         </a>
       </div>
 
-      <div className={styles.container_videos}>
+      <div
+        className={`${styles.container_videos} animate__animated
+      animate__fadeIn animate__delay-2s`}
+      >
         {videos.map((video, index) => (
           <IframeYouTube key={index} url={video.url} title={video.title} />
         ))}

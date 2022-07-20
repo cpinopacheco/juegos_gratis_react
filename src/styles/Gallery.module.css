@@ -5,8 +5,8 @@
   column-width: 33%;
   -webkit-column-width: 33%;
   -moz-column-width: 33%;
-  /*  padding: 0 12px; */
   margin-top: 2rem;
+  min-height: 100vh;
 }
 
 .gallery .pics {
